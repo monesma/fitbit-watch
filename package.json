@@ -1,0 +1,37 @@
+{
+  "name": "captorpark",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~6.1.0",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "fitbit": {
+    "appUUID": "4e417f69-ccf0-4c88-a39e-d896dcf544b9",
+    "appType": "app",
+    "appDisplayName": "Captorpark",
+    "iconFile": "resources/assets/medical-check.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [
+      "access_internet",
+      "localRequest",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  },
+  "dependencies": {},
+  "permissions": {
+    "access_internet": {},
+    "localRequest": true
+  }
+}

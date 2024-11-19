@@ -1,0 +1,15 @@
+<svg class="background">
+	<text fill="white" font-family="System-Regular" id="data">MODE</text>
+	<use id="myList" href="#tile-list" class="horizontal-pad">
+	    <var id="separator-height-bottom" value="6" />
+	    <use id="item1" href="#my-item">
+	      <set href="#text" attributeName="text-buffer" to="REPOS *"/>
+	    </use>
+	    <use id="item2" href="#my-item">
+	    	<set href="#text" attributeName="text-buffer" to="ACTIF  "/>
+    	</use>
+	</use>
+	<text fill="#DC143C" font-family="System-Regular" id="marche">A l'arrêt</text>
+	 <use id="button-1" href="#text-button" class="text-button bottom left secondary application-fill" />
+	<use id="button-2" href="#text-button" class="text-button bottom right application-fill" />
+</svg>
